@@ -58,17 +58,15 @@ We use:
 | ROC AUC               | ~0.89  |
 
 ## 🔍 Evaluation Metrics
-### 🟢 **Classification Report:**
 
-(result_images/result.png)
+### 🟢 Classification Report:
+![Classification Report](result_images/result.png)
 
-### 🟢 **Confusion Matrix**
+### 🟢 Confusion Matrix:
+![Confusion Matrix](result_images/confusion_matrix.png)
 
-(result_images/confusion_matrix.png)
-
-### 🟢 **ROC AUC Curve**
-
-(result_images/roc_auc)
+### 🟢 ROC AUC Curve:
+![ROC AUC Curve](result_images/roc_auc.png)
 
 ## 🧾 Conclusions
 
