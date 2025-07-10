@@ -56,3 +56,31 @@ We use:
 |-----------------------|--------|
 | Test Accuracy         | **0.82** |
 | ROC AUC               | ~0.89  |
+
+## 🔍 Evaluation Metrics
+### 🟢 **Classification Report:**
+
+(result_images/result.png)
+
+### 🟢 **Confusion Matrix**
+
+(result_images/confusion_matrix.png)
+
+### 🟢 **ROC AUC Curve**
+
+(result_images/roc_auc)
+
+## 🧾 Conclusions
+
+- The model achieved **82% accuracy** and an AUC of **0.89**, showing strong performance in predicting survival.
+- The ROC curve indicates the model significantly outperforms random guessing.
+- Feature engineering (e.g., `Title`, `FamilySize`, `IsAlone`) improved prediction performance.
+- The main misclassifications occurred in detecting survivors, which could be further reduced with more complex models or additional features.
+
+## 📚 References
+
+- [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic)
+- Scikit-learn documentation: https://scikit-learn.org/
+- Optuna documentation: https://optuna.org/
+
+  
